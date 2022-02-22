@@ -40,10 +40,10 @@ python3 app.py
 
 更换唤醒词
 ```
-1，登陆https://snowboy.kitt.ai/
-2，进入https://snowboy.kitt.ai/dashboard
-3，点击“ Create Hotword ”按钮，按提示生成自己的唤醒词并下载到项目的resources目录
-4，更改config.py文件中的MODELS变量，如果支持多个唤醒词使用逗号分隔（同时要更改SENSITIVITY变量）
+1. 访问唤醒词训练服务 https://snowboy.hahack.com;
+2. 训练你自己的模型;
+3. 下载 pmdl 模型并放到 ~/resources 中;
+4. 修改 config.yml 的 model 配置，改为你训练好的模型的文件名.
 ```
 
 代码文件详解
